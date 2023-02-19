@@ -33,7 +33,7 @@ export default {
         document.title = this.$t("titles.trending") + " - Piped";
         if (this.videos.length > 0) this.updateWatched(this.videos);
         if (this.$route.path == "/") {
-            switch (this.getPreferenceString("homepage", "aidc")) {
+            switch (this.getPreferenceString("homepage", "trending")) {
                 case "trending":
                     break;
                 case "feed":
