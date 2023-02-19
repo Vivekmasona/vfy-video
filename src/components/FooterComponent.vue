@@ -4,12 +4,12 @@
             <font-awesome-icon :icon="['fab', 'music']" />
             <span class="ml-2" v-t="'actions.source_code'" />
         </a>
-        <a href="https://VIVEKFY.onrender.com/" target="_blank">
-            <font-awesome-icon :icon="['fa', 'book']" />
+        <a href="https://vivekfy.onrender.com/" target="_blank">
+            <font-awesome-icon :icon="['fa', 'internate']" />
             <span class="ml-2" v-t="'actions.documentation'" />
         </a>
         <a href="https://vivekfy.netlify.app" target="_blank">
-            <font-awesome-icon :icon="['fab', 'bitcoin']" />
+            <font-awesome-icon :icon="['fab', 'home']" />
             <span class="ml-2" v-t="'actions.donations'" />
         </a>
         <a v-if="statusPageHref" :href="statusPageHref">
