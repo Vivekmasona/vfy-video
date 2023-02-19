@@ -1,5 +1,5 @@
 <template>
-    <h1 v-t="'titles.aidc'" class="font-bold text-center my-4" />
+    <h1 v-t="'titles.trending'" class="font-bold text-center my-4" />
 
     <hr />
 
@@ -21,7 +21,7 @@ export default {
         };
     },
     mounted() {
-        if (this.$route.path == "/" && this.getPreferenceString("homepage", "aidc") == "feed") return;
+        if (this.$route.path == "/" && this.getPreferenceString("homepage", "trending") == "feed") return;
         let region = this.getPreferenceString("region", "INDIA");
 
         this.fetchTrending(region).then(videos => {
@@ -33,7 +33,7 @@ export default {
         document.title = this.$t("titles.trending") + " - Piped";
         if (this.videos.length > 0) this.updateWatched(this.videos);
         if (this.$route.path == "/") {
-            switch (this.getPreferenceString("homepage", "trending")) {
+            switch (this.getPreferenceString("homepage", "aidc")) {
                 case "trending":
                     break;
                 case "feed":
@@ -46,7 +46,7 @@ export default {
     },
     methods: {
         async fetchTrending(region) {
-            return await this.fetchJson(this.apiUrl() + "/aidc", {
+            return await this.fetchJson(this.apiUrl() + "/trending", {
                 region: region || "INDIA",
             });
         },
