@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-    <ShortName>Piped</ShortName>
-    <LongName>Piped Search</LongName>
-    <Description>Search for videos, channels, and playlists on Piped</Description>
+    <ShortName>VIVEKFY</ShortName>
+    <LongName>VivekFy Search</LongName>
+    <Description>Search for videos, channels, and playlists on VivekFy</Description>
     <InputEncoding>UTF-8</InputEncoding>
     <Image width="48" height="48" type="image/x-icon">https://piped.video/favicon.ico</Image>
     <Url method="get" rel="results" type="text/html" template="https://piped.video/results?search_query={searchTerms}" />
