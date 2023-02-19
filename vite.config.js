@@ -44,7 +44,7 @@ export default defineConfig({
                 name: "VIVEKFY-Audio-Video-Player",
                 short_name: "VFy",
                 background_color: "#000000",
-                theme_color: "#fa4b4b",
+                theme_color: "#16E2F5",
                 icons: [
                     { src: "./img/icons/vivek.png", sizes: "192x192", type: "image/png" },
                     { src: "./img/icons/vivek.png", sizes: "512x512", type: "image/png" },
