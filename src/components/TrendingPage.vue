@@ -21,7 +21,7 @@ export default {
         };
     },
     mounted() {
-        if (this.$route.path == "/" && this.getPreferenceString("homepage", "trending") == "feed") return;
+        if (this.$route.path == "/" && this.getPreferenceString("homepage", "aidc") == "feed") return;
         let region = this.getPreferenceString("region", "INDIA");
 
         this.fetchTrending(region).then(videos => {
