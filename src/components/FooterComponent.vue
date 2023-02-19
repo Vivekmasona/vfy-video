@@ -2,23 +2,23 @@
     <footer class="text-center py-4 rounded-xl children:(mx-3) w-full mt-10">
         <a aria-label="GitHub" href="https://vivekfy.netlify.app/music" target="_blank">
             <font-awesome-icon :icon="['fab', 'music']" />
-            <span class="ml-2" v-t="'actions.source_code'" />
+            <span class="ml-2" v-t="'actions.VFY-MUSIC🎧'" />
         </a>
         <a href="https://vivekfy.onrender.com/" target="_blank">
             <font-awesome-icon :icon="['fa', 'internate']" />
-            <span class="ml-2" v-t="'actions.documentation'" />
+            <span class="ml-2" v-t="'actions.VFY-SERVER🌐'" />
         </a>
         <a href="https://vivekfy.netlify.app" target="_blank">
             <font-awesome-icon :icon="['fab', 'home']" />
-            <span class="ml-2" v-t="'actions.donations'" />
+            <span class="ml-2" v-t="'actions.VFY-DOWNLOADER⬇️'" />
         </a>
         <a v-if="statusPageHref" :href="statusPageHref">
             <font-awesome-icon :icon="['fa', 'server']" />
-            <span class="ml-2" v-t="'actions.status_page'" />
+            <span class="ml-2" v-t="'actions.'" />
         </a>
         <a v-if="donationHref" :href="donationHref">
             <font-awesome-icon :icon="['fa', 'music']" />
-            <span class="ml-2" v-t="'actions.instance_donations'" />
+            <span class="ml-2" v-t="'actions.'" />
         </a>
     </footer>
 </template>
