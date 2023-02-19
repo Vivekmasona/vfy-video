@@ -41,21 +41,7 @@ const routes = [
         name: "Channel",
         component: () => import("../components/ChannelPage.vue"),
     },
-    {
-        path: "/login",
-        name: "Login",
-        component: () => import("../components/LoginPage.vue"),
-    },
-    {
-        path: "/register",
-        name: "Register",
-        component: () => import("../components/RegisterPage.vue"),
-    },
-    {
-        path: "/feed",
-        name: "Feed",
-        component: () => import("../components/FeedPage.vue"),
-    },
+   
     {
         path: "/import",
         name: "Import",
