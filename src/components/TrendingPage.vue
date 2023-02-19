@@ -47,7 +47,7 @@ export default {
     methods: {
         async fetchTrending(region) {
             return await this.fetchJson(this.apiUrl() + "/trending", {
-                region: region || "US",
+                region: region || "INDIA",
             });
         },
     },
