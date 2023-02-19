@@ -41,8 +41,8 @@ export default defineConfig({
                 ],
             },
             manifest: {
-                name: "VIVEKFY",
-                short_name: "Piped",
+                name: "VIVEKFY-Audio-Video-Player",
+                short_name: "VFy",
                 background_color: "#000000",
                 theme_color: "#fa4b4b",
                 icons: [
