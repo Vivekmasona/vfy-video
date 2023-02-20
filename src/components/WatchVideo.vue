@@ -110,7 +110,7 @@
                         >
                             <font-awesome-icon icon="rss" />
                         </a>
-                        <WatchOnYouTubeButton :link="`https://vivekfy.netlify.app/?&text=https://youtu.be/${getVideoId()}`" />
+                        <WatchOnYouTubeButton :link="`https://vivekfy.netlify.app?text=https://youtu.be/${getVideoId()}`" />
                         <!-- Share Dialog -->
                         <button class="btn" @click="showShareModal = !showShareModal">
                             <i18n-t class="lt-lg:hidden" keypath="actions.share" tag="strong"></i18n-t>
