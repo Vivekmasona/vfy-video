@@ -248,7 +248,7 @@ export default {
         const smallViewQuery = window.matchMedia("(max-width: 640px)");
         return {
             video: {
-                title: "VIVEKFY...",
+                title: "VIVEKFY is Loading...",
             },
             playlistId: null,
             playlist: null,
