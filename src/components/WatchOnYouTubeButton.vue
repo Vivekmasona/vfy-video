@@ -11,7 +11,7 @@ export default {
         <!-- For large screens -->
         <a :href="link" class="btn lt-lg:hidden">
             <i18n-t keypath="player.watch_on" tag="strong">
-                <font-awesome-icon class="mx-1.5" :icon="['fab', 'youtube']" />
+                <font-awesome-icon class="mx-1.5" :icon="['fa-solid', 'fa-download']" />
             </i18n-t>
         </a>
         <!-- For small screens -->
