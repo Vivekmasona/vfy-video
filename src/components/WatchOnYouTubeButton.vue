@@ -11,12 +11,12 @@ export default {
         <!-- For large screens -->
         <a :href="link" class="btn lt-lg:hidden">
             <i18n-t keypath="player.watch_on" tag="strong">
-                <font-awesome-icon class="mx-1.5" :icon="['fab', 'youtube']" />
+                <font-awesome-icon class="mx-1.5" :icon="['fa-fa', 'download']" />
             </i18n-t>
         </a>
         <!-- For small screens -->
         <a :href="link" class="btn lg:hidden">
-            <font-awesome-icon class="mx-1.5" :icon="['fab', 'youtube']" />
+            <font-awesome-icon class="mx-1.5" :icon="['fa-fa', 'download']" />
         </a>
     </template>
 </template>
