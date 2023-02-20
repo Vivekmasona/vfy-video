@@ -10,7 +10,7 @@
         </a>
         <a href="https://vivekfy.netlify.app" target="_blank">
             <font-awesome-icon :icon="['fab', 'home']" />
-            <span class="ml-2" v-t="'VFY-DOWNLOADER⬇️'" />
+            <span class="ml-2" v-t="'VFY-DL⬇️'" />
         </a>
         <a v-if="statusPageHref" :href="statusPageHref">
             <font-awesome-icon :icon="['fa', 'server']" />
