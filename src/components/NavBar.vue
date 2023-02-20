@@ -4,11 +4,11 @@
             <router-link class="flex font-bold text-3xl items-center font-sans" to="/"
                 ><img
                     alt="logo"
-                    src="/img/icons/logo.svg"
+                    src="/img/icons/vivek.png"
                     height="32"
                     width="32"
                     class="w-10 mr-[-0.6rem]"
-                />iped</router-link
+                />VIVEKFY</router-link
             >
         </div>
         <div class="lt-md:hidden search-container">
