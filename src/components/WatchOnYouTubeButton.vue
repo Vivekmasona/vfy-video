@@ -16,7 +16,7 @@ export default {
         </a>
         <!-- For small screens -->
         <a :href="link" class="btn lg:hidden">
-            <font-awesome-icon class="mx-1.5" :icon="['fab', 'youtube']" />
+            <font-awesome-icon class="mx-1.5" :icon="['fa-solid', 'download']" />
         </a>
     </template>
 </template>
