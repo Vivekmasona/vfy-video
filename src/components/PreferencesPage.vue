@@ -107,7 +107,7 @@
         />
     </label>
     <label class="pref" for="chkShowWatchOnYouTube">
-        <strong v-t="'actions.show_watch_on_youtube'" />
+        <strong v-t="'actions.Vivekfy-download-enable'" />
         <input
             id="chkShowWatchOnYouTube"
             v-model="showWatchOnYouTube"
