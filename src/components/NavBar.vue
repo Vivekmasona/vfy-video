@@ -8,7 +8,7 @@
                     height="32"
                     width="32"
                     class="w-10 mr-[-0.6rem]"
-                />VIVEKFY</router-link
+                />𝐕𝐢𝐯𝐞𝐤𝐟𝐲</router-link
             >
         </div>
         <div class="lt-md:hidden search-container">
