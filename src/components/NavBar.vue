@@ -8,7 +8,7 @@
                     height="32"
                     width="32"
                     class="w-10 mr-[-0.6rem]"
-                />𝕍𝕚𝕧𝕖𝕜𝕗𝕪</router-link
+                />Videofy</router-link
             >
         </div>
         <div class="lt-md:hidden search-container">
