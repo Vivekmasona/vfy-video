@@ -2,7 +2,7 @@
     <ModalComponent>
         <h2 v-t="'actions.share'" />
         <div class="flex justify-between">
-            <label v-t="'actions.piped_link'" />
+            <label v-t="'vivekfy_link'" />
             <input type="checkbox" v-model="pipedLink" @change="onChange" />
         </div>
         <div v-if="this.hasPlaylist" class="flex justify-between">
