@@ -465,9 +465,9 @@ export default {
             this.defaultQuality = Number(localStorage.getItem("quality"));
             this.bufferingGoal = Math.max(Number(localStorage.getItem("bufferGoal")), 10);
             this.countrySelected = this.getPreferenceString("region", "IN");
-            this.defaultHomepage = this.getPreferenceString("homepage", "trending");
-            this.minimizeComments = this.getPreferenceBoolean("minimizeComments", false);
-            this.minimizeDescription = this.getPreferenceBoolean("minimizeDescription", false);
+            this.defaultHomepage = this.getPreferenceString("homepage", "bollywood songs");
+            this.minimizeComments = this.getPreferenceBoolean("minimizeComments", true);
+            this.minimizeDescription = this.getPreferenceBoolean("minimizeDescription", true);
             this.minimizeRecommendations = this.getPreferenceBoolean("minimizeRecommendations", false);
             this.minimizeChapters = this.getPreferenceBoolean("minimizeChapters", false);
             this.showWatchOnYouTube = this.getPreferenceBoolean("showWatchOnYouTube", false);
