@@ -464,7 +464,7 @@ export default {
             this.listen = this.getPreferenceBoolean("listen", false);
             this.defaultQuality = Number(localStorage.getItem("quality"));
             this.bufferingGoal = Math.max(Number(localStorage.getItem("bufferGoal")), 10);
-            this.countrySelected = this.getPreferenceString("region", "US");
+            this.countrySelected = this.getPreferenceString("region", "IN");
             this.defaultHomepage = this.getPreferenceString("homepage", "trending");
             this.minimizeComments = this.getPreferenceBoolean("minimizeComments", false);
             this.minimizeDescription = this.getPreferenceBoolean("minimizeDescription", false);
