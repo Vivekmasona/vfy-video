@@ -353,8 +353,8 @@ export default {
             countryMap: CountryMap,
             countrySelected: "IN",
             defaultHomepage: "bollywood songs",
-            minimizeComments: true,
-            minimizeDescription: true,
+            minimizeComments: false,
+            minimizeDescription: false,
             minimizeRecommendations: false,
             minimizeChapters: false,
             showWatchOnYouTube: false,
@@ -464,10 +464,10 @@ export default {
             this.listen = this.getPreferenceBoolean("listen", false);
             this.defaultQuality = Number(localStorage.getItem("quality"));
             this.bufferingGoal = Math.max(Number(localStorage.getItem("bufferGoal")), 10);
-            this.countrySelected = this.getPreferenceString("region", "IN");
-            this.defaultHomepage = this.getPreferenceString("homepage", "bollywood songs");
-            this.minimizeComments = this.getPreferenceBoolean("minimizeComments", true);
-            this.minimizeDescription = this.getPreferenceBoolean("minimizeDescription", true);
+            this.countrySelected = this.getPreferenceString("region", "US");
+            this.defaultHomepage = this.getPreferenceString("homepage", "trending");
+            this.minimizeComments = this.getPreferenceBoolean("minimizeComments", false);
+            this.minimizeDescription = this.getPreferenceBoolean("minimizeDescription", false);
             this.minimizeRecommendations = this.getPreferenceBoolean("minimizeRecommendations", false);
             this.minimizeChapters = this.getPreferenceBoolean("minimizeChapters", false);
             this.showWatchOnYouTube = this.getPreferenceBoolean("showWatchOnYouTube", false);
