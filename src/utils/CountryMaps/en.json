@@ -1,4 +1,5 @@
 [
+    { "code": "IN", "name": "India" },
     { "code": "AF", "name": "Afghanistan" },
     { "code": "AL", "name": "Albania" },
     { "code": "DZ", "name": "Algeria" },
@@ -185,6 +186,7 @@
     { "code": "UA", "name": "Ukraine" },
     { "code": "AE", "name": "United Arab Emirates" },
     { "code": "GB", "name": "United Kingdom of Great Britain and Northern Ireland" },
+    { "code": "IN", "name": "India" },
     { "code": "US", "name": "United States of America" },
     { "code": "UY", "name": "Uruguay" },
     { "code": "UZ", "name": "Uzbekistan" },
