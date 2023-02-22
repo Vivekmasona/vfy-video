@@ -352,7 +352,7 @@ export default {
             bufferingGoal: 10,
             countryMap: CountryMap,
             countrySelected: "IN",
-            defaultHomepage: "trending",
+            defaultHomepage: "bollywood songs",
             minimizeComments: false,
             minimizeDescription: false,
             minimizeRecommendations: false,
